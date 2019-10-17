@@ -1,0 +1,9 @@
+echo "# teste" >> README.md
+git init
+git add .
+git commit -m "Atualização dos testes"
+git remote add origin https://github.com/Rafael-Hercule/teste_reuniao.git
+git push -u origin master
+
+git remote add origin https://github.com/Rafael-Hercule/teste_reuniao.git
+git push -u origin master
