@@ -113,13 +113,227 @@ while situacao != '5':
             print(radical(x,y))
             print()
 
-    #situação 3, ainda não definida
-    if situacao == '3':
+    #situação 3, quiz game show
+    while situacao == '3':
         print()
-        print('ainda não definido')
-        print('voltando para o inicio')
-        print('...')
-        print()
+        print('bem vindo ao quiz')
+        print('1) quantas aeronaves se apresentam numa apresentação padrão da esquadrilha da fumaça?')
+        r = input('resposta: ')
+        if r == '7':
+            print('resposta correta!!! proxima pergunta:')
+            print()
+            print('Quais aeronaves formam uma dupla separada da equipe?')
+            s = input('resposta: ')
+
+            if s == '5 e 6':
+                print()
+                print('resposta correta!!! Proxima pergunta:')
+                print()
+                print('qual o lar da esquadrilha da fumaça?')
+                t = input('resposta: ')
+
+                if t == 'Pirassununga':
+                    print()
+                    print('resposta correta!!! Proxima pergunta:')
+                    print()
+                    print('Qual a abreviação do nome original da esquadrilha da fumaça?')
+                    u = input('resposta: ')
+
+                elif t == 'pirassununga':
+                    print()
+                    print('resposta correta!!! Proxima pergunta:')
+                    print()
+                    print('Qual a abreviação do nome original da esquadrilha da fumaça?')
+                    u = input('resposta: ')
+
+                    if u =='Eda':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+                    elif u == 'EDA':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+                    elif u =='eda':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+
+                        if v == 'A29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'a29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'super tucano':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'a-29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'A-29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+
+                        else:
+                            print()
+                            print('resposta errada! começe novamente!')
+                            break
+
+                    else:
+                        print()
+                        print('resposta errada! começe novamente!')
+                        break
+
+                else:
+                    print()
+                    print('resposta errada! começe novamente!')
+                    break
+
+            elif s == '5 6':
+                print()
+                print('resposta correta!!! Proxima pergunta:')
+                print()
+                print('qual o lar da esquadrilha da fumaça?')
+                t = input('resposta: ')
+            elif s == '5, 6':
+                print()
+                print('resposta correta!!! Proxima pergunta:')
+                print()
+                print('qual o lar da esquadrilha da fumaça?')
+                t = input('resposta: ')
+            elif s == '5,6':
+                print()
+                print('resposta correta!!! Proxima pergunta:')
+                print()
+                print('qual o lar da esquadrilha da fumaça?')
+                t = input('resposta: ')
+            elif s =='56':
+                print()
+                print('resposta correta!!! Proxima pergunta:')
+                print()
+                print('qual o lar da esquadrilha da fumaça?')
+                t = input('resposta: ')
+
+                if t == 'Pirassununga':
+                    print()
+                    print('resposta correta!!! Proxima pergunta:')
+                    print()
+                    print('Qual a abreviação do nome original da esquadrilha da fumaça?')
+                    u = input('resposta: ')
+
+                elif t == 'pirassununga':
+                    print()
+                    print('resposta correta!!! Proxima pergunta:')
+                    print()
+                    print('Qual a abreviação do nome original da esquadrilha da fumaça?')
+                    u = input('resposta: ')
+
+                    if u =='Eda':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+                    elif u == 'EDA':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+                    elif u =='eda':
+                        print()
+                        print('resposta correta!!! Proxima pergunta:')
+                        print()
+                        print('qual é a aeronave utilizada pela esquadrilha da fumaça?')
+                        v = input('resposta: ')
+
+                        if v == 'A29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'a29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'super tucano':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'a-29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+                        elif v == 'A-29':
+                            print()
+                            print('resposta correta!!! Proxima pergunta:')
+                            print()
+                            print('você chegou ao fim do quiz, parabéns!!!')
+                            print()
+                            break
+
+                        else:
+                            print()
+                            print('resposta errada! começe novamente!')
+                            break
+
+                    else:
+                        print()
+                        print('resposta errada! começe novamente!')
+                        break
+
+                else:
+                    print()
+                    print('resposta errada! começe novamente!')
+                    break
+
+            else:
+                print()
+                print('resposta errada! começe novamente!')
+                break
+
+        else:
+            print()
+            print('resposta errada! começe novamente!')
+            break
     #situação 4 ainda não definida
     if situacao == '4':
         print()
